@@ -1,0 +1,149 @@
+﻿<html>
+<head>
+    <title>Rhino Tests Report</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 9pt;
+            background-color: #EEE;
+        }
+
+        .main_title {
+            margin-top: 20px;
+            text-align: center;
+            color: #009;
+        }
+
+        div.rhino_tests_summary_container {
+            border: 1px solid #009;
+            box-shadow: 1px 1px 1px 1px #888888;
+            background-color: #ebf0fa;
+            border-radius: 10px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 80px;
+            padding-right: 80px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            min-width: 600px;
+            max-width: 800px;
+        }
+
+        div.rhino_test_case_container {
+            border: 1px solid #666;
+            box-shadow: 1px 1px 1px 1px #888888;
+            background-color: white;
+            border-radius: 10px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 80px;
+            padding-right: 80px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            min-width: 600px;
+            max-width: 800px;
+        }
+
+        table, td, th {
+            border: 1px solid #999;
+            border-collapse: collapse;
+            table-layout: fixed;
+        }
+
+            table.rhino_test_case_steps {
+                width: 100%;
+                table-layout: fixed;
+            }
+
+            table.rhino_tests_summary {
+                width: 100%;
+                background-color: white;
+            }
+
+        .rhino_test_case_steps td, .rhino_tests_summary td {
+            font-size: 9pt;
+            padding: 5px;
+            word-wrap: break-word;
+        }
+
+        .rhino_test_details {
+            margin-bottom: 10px;
+        }
+
+            .rhino_test_details td {
+                font-size: 9pt;
+                padding: 5px;
+            }
+
+        .rhino_test_case_steps th, .rhino_tests_summary th {
+            background-color: #DDD;
+            font-size: 10pt;
+            padding: 5px;
+        }
+
+        .index_cell, .duration_cell, .status_cell {
+            text-align: center;
+        }
+
+        .col_index {
+            width: 35px;
+            background-color: #DDD;
+        }
+
+        .col_pf {
+            width: 35px;
+        }
+
+        .col_duration {
+            width: 90px;
+        }
+
+        .col_test_id {
+            width: 120px;
+        }
+
+        .col_test_status {
+            width: 90px;
+        }
+
+        .step_status {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .pass {
+            color: #339966;
+            font-weight: bold;
+        }
+
+        .fail {
+            color: red;
+            font-weight: bold;
+        }
+
+        .pass_highlight {
+            background-color: #33cc33;
+        }
+
+        .fail_highlight {
+            background-color: #ff1a1a;
+        }
+
+        .rhino_test_title {
+            font-size: 13pt;
+            margin-top: 0px;
+        }
+
+        .title_cell {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="main_title">Rhino Tests Report</h1>
+    ${rhino_tests_summary}
+    ${rhino_test_cases}
+</body>
+</html>

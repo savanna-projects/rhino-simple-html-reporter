@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rhino.Api.Reporter.SimpleHtml", "Rhino.Api.Reporter.SimpleHtml\Rhino.Api.Reporter.SimpleHtml.csproj", "{7C2692C8-51CE-4A59-902F-A1F759AEA19C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportClient", "ReportClient\ReportClient.csproj", "{35BDBF09-6D33-4C7F-A19D-01752AE120C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{7CCF45C6-C923-4B5B-8BA9-9ACF0B653277}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\LICENSE = ..\..\LICENSE
+		..\..\README.md = ..\..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{6645C051-D645-460C-8715-85648A7A5C21}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.gitignore = ..\..\.gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{2224A1FF-D790-47E5-9DE2-54B17F265D70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C2692C8-51CE-4A59-902F-A1F759AEA19C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C2692C8-51CE-4A59-902F-A1F759AEA19C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C2692C8-51CE-4A59-902F-A1F759AEA19C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C2692C8-51CE-4A59-902F-A1F759AEA19C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35BDBF09-6D33-4C7F-A19D-01752AE120C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35BDBF09-6D33-4C7F-A19D-01752AE120C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35BDBF09-6D33-4C7F-A19D-01752AE120C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35BDBF09-6D33-4C7F-A19D-01752AE120C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DF02BDC-7AE3-46B0-B306-E122E86C2AF5}
+	EndGlobalSection
+EndGlobal

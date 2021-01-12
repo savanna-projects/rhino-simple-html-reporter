@@ -1,0 +1,14 @@
+﻿[test-id] Test001
+[test-scenario] Search on google.com - Positive
+
+[test-actions]
+1. go to url {https://www.google.com/} using any compliant web-browser
+2. close all child windows (to make sure only the web site is open and visible)
+3. send keys {automation} into {//input[@name='q']} text-box (search text-box)
+4. click on the first {//ul[@role='listbox']/li}
+5. wait for {3000} milliseconds
+6. close browser
+
+[test-expected-results]
+[1] assert {url} match {google.com}
+[3] assert on {//input[@name='q']} get value from {value} attribute must match {automation}

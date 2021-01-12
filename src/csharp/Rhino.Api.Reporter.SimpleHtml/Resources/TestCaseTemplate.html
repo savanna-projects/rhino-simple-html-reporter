@@ -1,0 +1,36 @@
+﻿<div class="rhino_test_case_container">
+
+    <h2 class="rhino_test_title">[<a id="${test_id}">${test_id}</a>] ${test_name}</h2>
+
+    <table class="rhino_test_details">
+        <tr class="${status_highlight_class}">
+            <td class="title_cell">Status:</td>
+            <td>${test_status}</td>
+        </tr>
+        <tr>
+            <td class="title_cell">Duration (mm:ss.fff):</td>
+            <td>${test_duration}</td>
+        </tr>
+        <tr>
+            <td class="title_cell">Start time:</td>
+            <td>${test_start_time}</td>
+        </tr>
+        <tr>
+            <td class="title_cell">End time:</td>
+            <td>${test_end_time}</td>
+        </tr>
+    </table>
+
+    <table class="rhino_test_case_steps">
+        <colgroup><col class="col_index"><col class="col_pf"><col class="col_action"><col class="col_expected"><col class="col_duration"></colgroup>
+        <tr>
+            <th>#</th>
+            <th>P/F</th>
+            <th>Action</th>
+            <th>Expected Result</th>
+            <th>Duration<br>(mm:ss.fff)</th>
+        </tr>
+        ${rhino_test_case_step_rows}
+    </table>
+
+</div>
