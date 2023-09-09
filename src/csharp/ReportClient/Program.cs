@@ -31,8 +31,8 @@ namespace ReportClient
                 },
                 Authentication = new Authentication
                 {
-                    UserName = "automation@rhino.api",
-                    Password = "Aa123456!"
+                    UserName = "",
+                    Password = ""
                 },
                 ConnectorConfiguration = new RhinoConnectorConfiguration
                 {
